@@ -1,0 +1,29 @@
+body {font-family: arial; color: white}
+header {
+    text-align: center;
+    font-size: x-large;
+}
+.stat {
+   text-align: center;
+}
+
+.Gamers {
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    grid-template-rows: 150px 150px 150px;
+    grid-row: inherit;
+    grid-gap: 40px;
+    padding: 10px;
+    
+    
+} 
+.trainee {
+    
+    border: 2px solid black;
+    overflow: scroll;
+    
+}
+
+/*.Gamers {
+    grid-template-columns: 40px 50px auto 50px 40px;
+    grid-template-rows: 25% 100px auto;*/
